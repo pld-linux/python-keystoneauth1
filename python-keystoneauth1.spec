@@ -6,14 +6,14 @@
 %bcond_without	doc	# Sphinx documentation
 %bcond_with	tests	# unit tests (require tons of dependencies)
 %bcond_without	python2 # CPython 2.x module
-%bcond_without	python3 # CPython 3.x module
+%bcond_with	python3 # CPython 3.x module
 
 Summary:	Authentication Library for OpenStack Identity
 Summary(pl.UTF-8):	Biblioteka uwierzytleniająca dla tożsamości OpenStack
 Name:		python-keystoneauth1
 # keep 3.x here for python2 support
 Version:	3.18.0
-Release:	4
+Release:	5
 License:	Apache v2.0
 Group:		Libraries/Python
 Source0:	https://files.pythonhosted.org/packages/source/k/keystoneauth1/keystoneauth1-%{version}.tar.gz
